@@ -24,13 +24,13 @@ const Game = () => {
         </div>
 
         {/* Main Content */}
-        <div className="flex-1 flex items-center justify-center">
-          <div className="flex flex-col items-center gap-8 px-6 text-center">
+        <div className="flex-1 flex flex-col justify-start pt-16">
+          <div className="flex flex-col items-center gap-6 px-6 text-center">
             <h1 className="font-8bit uppercase tracking-widest text-white drop-shadow-[0_4px_0_#000] text-4xl sm:text-5xl md:text-6xl">
               GROOTED
             </h1>
             
-            <div className="flex flex-col gap-4">
+            <div className="flex flex-col gap-3">
               <button
                 type="button"
                 onClick={() => navigate('/play')}
